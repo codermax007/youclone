@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CourseTube - Learn Anytime</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <!-- Header Section -->
+    <header class="header">
+      <div class="left-section">
+        <img class="hamburger-menu" src="icons/hamburger-menu.svg" alt="Menu">
+        <img class="youtube-logo" src="icons/youtube-logo.svg" alt="CourseTube Logo">
+      </div>
+      <div class="middle-section">
+        <input class="search-bar" type="text" placeholder="Search courses">
+        <button class="search-button">
+          <img class="search-icon" src="icons/search.svg" alt="Search">
+        </button>
+        <button class="voice-search-button">
+          <img class="voice-search-icon" src="icons/voice-search-icon.svg" alt="Voice Search">
+        </button>
+      </div>
+      <div class="right-section">
+        <div class="upload-icon-container">
+          <img class="upload-icon" src="icons/upload.svg" alt="Create">
+        </div>
+        <img class="youtube-apps-icon" src="icons/youtube-apps.svg" alt="Apps">
+        <div class="notifications-icon-container">
+          <img class="notifications-icon" src="icons/notifications.svg" alt="Notifications">
+          <div class="notifications-count">3</div>
+        </div>
+        <img class="current-user-picture" src="channel-pictures/my-channel.jpeg" alt="User Profile">
+      </div>
+    </header>
+
+    <!-- Sidebar Section -->
+    <nav class="sidebar">
+      <div class="sidebar-link">
+        <img src="icons/home.svg" alt="Home">
+        <div>Home</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/explore.svg" alt="Explore">
+        <div>Explore</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/subscriptions.svg" alt="My Courses">
+        <div>My Courses</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/originals.svg" alt="Trending">
+        <div>Trending</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/youtube-music.svg" alt="Podcasts">
+        <div>Podcasts</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/library.svg" alt="Library">
+        <div>Library</div>
+      </div>
+    </nav>
+
+    <!-- Main Content Section -->
+    <main>
+      <section class="video-grid">
+        <!-- Video 1 -->
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="https://img.youtube.com/vi/8mAITcNt710/hqdefault.jpg" alt="Python for Beginners - Full Course">
+            <div class="video-time">12:45</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="channel-pictures/channel-1.jpeg" alt="freeCodeCamp.org">
+            </div>
+            <div class="video-info">
+              <p class="video-title">Python for Beginners - Full Course</p>
+              <p class="video-author">freeCodeCamp.org</p>
+              <p class="video-stats">5.1M views · 1 year ago</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Video 2 -->
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="https://img.youtube.com/vi/HnwsG9a-dw4/hqdefault.jpg" alt="HTML & CSS Full Course">
+            <div class="video-time">2:03:10</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="channel-pictures/channel-2.jpeg" alt="SuperSimpleDev">
+            </div>
+            <div class="video-info">
+              <p class="video-title">HTML & CSS Full Course - Beginner to Pro</p>
+              <p class="video-author">SuperSimpleDev</p>
+              <p class="video-stats">3.2M views · 6 months ago</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Video 3 -->
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="https://img.youtube.com/vi/jS4aFq5-91M/hqdefault.jpg" alt="JavaScript Crash Course for Beginners">
+            <div class="video-time">1:28:36</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="channel-pictures/channel-3.jpeg" alt="Traversy Media">
+            </div>
+            <div class="video-info">
+              <p class="video-title">JavaScript Crash Course for Beginners</p>
+              <p class="video-author">Traversy Media</p>
+              <p class="video-stats">4.8M views · 2 years ago</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Video 4 -->
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="https://img.youtube.com/vi/kUMe1FH4CHE/hqdefault.jpg" alt="Web Development Full Course">
+            <div class="video-time">3:45:00</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="channel-pictures/channel-4.jpeg" alt="Programming with Mosh">
+            </div>
+            <div class="video-info">
+              <p class="video-title">Web Development Full Course - 10 Hours</p>
+              <p class="video-author">Programming with Mosh</p>
+              <p class="video-stats">2.3M views · 8 months ago</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Video 5 -->
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="https://img.youtube.com/vi/pU2gyp2FwDQ/hqdefault.jpg" alt="Data Structures & Algorithms Full Course">
+            <div class="video-time">47:29</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="channel-pictures/channel-5.jpeg" alt="GeeksforGeeks">
+            </div>
+            <div class="video-info">
+              <p class="video-title">Data Structures & Algorithms Full Course</p>
+              <p class="video-author">GeeksforGeeks</p>
+              <p class="video-stats">1.6M views · 1 year ago</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Video 6 -->
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="https://img.youtube.com/vi/Z1Yd7upQsXY/hqdefault.jpg" alt="Node.js Tutorial for Beginners">
+            <div class="video-time">1:15:23</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="channel-pictures/channel-6.jpeg" alt="Academind">
+            </div>
+            <div class="video-info">
+              <p class="video-title">Node.js Tutorial for Beginners</p>
+              <p class="video-author">Academind</p>
+              <p class="video-stats">2.9M views · 1 year ago</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
